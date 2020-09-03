@@ -13,7 +13,7 @@ res = requests.get('https://www.patentsview.org/api/assignees/query?q={"_contain
 patents=res.json()
 sym = 'ADBE'
 params = {
-        'apikey': '{R4T5DKYNBGNXP596}',
+        'apikey': '{*************}',
         'symbol':sym,
         'outputsize' : 'full'
       }
